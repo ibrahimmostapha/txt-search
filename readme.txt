@@ -1,1 +1,2 @@
-just open main.html
+1) open text-search branch
+2) open main.html
