@@ -28,3 +28,8 @@ body {
 .content p {
     font-size: 15px;
 }
+
+.highlight {
+    background-color: #132eb5;
+    color: #ffffff;
+}
