@@ -1,0 +1,1 @@
+just open main.html
