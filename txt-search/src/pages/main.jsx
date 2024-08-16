@@ -1,27 +1,25 @@
-<!DOCTYPE html>
-<html lang="en">
+import './style.css'
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Main</title>
+function SearchPage(){
 
-    <link rel="stylesheet" href="style.css">
-</head>
 
-<body>
-    <div class="search-box">
-        <input class="search-input" type="text" placeholder="Search" id="search-input" oninput="search()">
+  return (
+    <div>
+      <div className="search-box">
+        <input
+          className="search-input"
+          type="text"
+          placeholder="Search"
+        />
+      </div>
+      
+      <div className="content" id="content">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis odio eos dolorum saepe! Delectus, beatae? Perferendis dignissimos cum et molestiae eveniet totam veritatis quam odit quidem! Aliquam inventore sed veritatis!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis odio eos dolorum saepe! Delectus, beatae? Perferendis dignissimos cum et molestiae eveniet totam veritatis quam odit quidem! Aliquam inventore sed veritatis!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis odio eos dolorum saepe! Delectus, beatae? Perferendis dignissimos cum et molestiae eveniet totam veritatis quam odit quidem! Aliquam inventore sed veritatis!</p>
+      </div>
     </div>
-    
-    <div class="content" id="content">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis odio eos dolorum saepe! Delectus, beatae? Perferendis dignissimos cum et molestiae eveniet totam veritatis quam odit quidem! Aliquam inventore sed veritatis!</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis odio eos dolorum saepe! Delectus, beatae? Perferendis dignissimos cum et molestiae eveniet totam veritatis quam odit quidem! Aliquam inventore sed veritatis!</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis odio eos dolorum saepe! Delectus, beatae? Perferendis dignissimos cum et molestiae eveniet totam veritatis quam odit quidem! Aliquam inventore sed veritatis!</p>
-    </div>
-    
-</body>
+  );
+};
 
-<script src="scripts.js"></script>
-
-</html>
+export default SearchPage;
