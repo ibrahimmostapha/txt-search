@@ -1,4 +1,5 @@
 open terminal
+
 write this commands:
 
 1) node -v // this command to check if you have installed node.js
