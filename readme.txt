@@ -1,1 +1,1 @@
-just open main.html
+Just open "main.html"
